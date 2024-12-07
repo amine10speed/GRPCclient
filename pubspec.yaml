@@ -1,0 +1,29 @@
+name: flutterclient
+description: "A new Flutter project."
+
+# Prevents the package from being accidentally published to pub.dev.
+publish_to: 'none'
+
+# Define the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+ sdk: ">=2.12.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  grpc_googleapis: ^2.0.32
+  grpc: ^3.1.0
+  protobuf: ^2.0.0
+  http: any # Updated version compatible with your setup
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.3.3
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
